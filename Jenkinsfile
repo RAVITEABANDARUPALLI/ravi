@@ -1,7 +1,8 @@
 pipeline {
     agent any
 
-    stages {
+    stages 
+    {
         stage('dev') {
             steps {
                 echo 'application is building'
@@ -17,10 +18,13 @@ pipeline {
                 echo 'waiting for UA'
             }
         }
-         stage('release') {
+         stage('release') 
+        {
             steps {
                 echo 'application is ready to release tp production service'
             }
-       }
-    }
+             
+        } 
+        
+    }
 }
