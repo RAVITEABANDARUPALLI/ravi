@@ -21,6 +21,6 @@ pipeline {
             steps {
                 echo 'application is ready to release tp production service'
             }
-        }
+       }
     }
 }
